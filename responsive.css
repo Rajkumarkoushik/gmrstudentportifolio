@@ -1,0 +1,22 @@
+@media(max-width:1023px){
+    .nav-links,.nav-section{
+        flex-direction: column;
+    }
+    .nav-section{
+        flex-direction:row
+    }
+    .hamburger{
+        display: block;
+    }
+    .nav-social-links{
+        display: none
+    }
+    .nav-links{
+        position: absolute;
+        top: 200px;
+        left: 0%;
+        background-color: #fff;
+        width: 100%;
+        display: none;
+    }
+}
