@@ -121,13 +121,14 @@ p{
     background-image: url("./banner-background-one.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    position: static;
+    position: relative;
     z-index: -11;
 }
 .home-image img{
     width: 100%;
     height: 80vh;
     z-index: +2;
+    position: static;
 }
 .home-image h2:nth-child(2){
     position: absolute;
@@ -202,6 +203,9 @@ p{
 }
 .edu-details h5, h6{
     color: #fff !important;
+}
+.edu-details p{
+    color: #fff;
 }
 /* 4. Education section ends */
 
